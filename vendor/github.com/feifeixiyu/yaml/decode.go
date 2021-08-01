@@ -688,6 +688,11 @@ func (d *decoder) setMapIndex(n *node, out, k, v reflect.Value) {
 		return
 	}
 	out.SetMapIndex(k, v)
+
+	kLN := reflect.New(k.Type()).Elem()
+	kLN.Set(reflect.ValueOf(k.Elem().String() + "_ln"))
+	vLN := reflect.ValueOf(n.line)
+	out.SetMapIndex(kLN, vLN)
 }
 
 func (d *decoder) mappingSlice(n *node, out reflect.Value) (good bool) {

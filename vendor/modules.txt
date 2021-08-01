@@ -1,4 +1,6 @@
 # github.com/davecgh/go-spew v1.1.1
+## explicit
 github.com/davecgh/go-spew/spew
-# gopkg.in/yaml.v2 v2.2.8
-gopkg.in/yaml.v2
+# github.com/feifeixiyu/yaml v0.0.0-20210801015903-f9a5c2f274ef
+## explicit
+github.com/feifeixiyu/yaml

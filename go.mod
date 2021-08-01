@@ -1,8 +1,9 @@
-module sigs.k8s.io/yaml
+module github.com/feifeixiyu/yaml-wrapper
 
-go 1.12
+go 1.15
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	gopkg.in/yaml.v2 v2.2.8
+	github.com/feifeixiyu/yaml v0.0.0-20210801015903-f9a5c2f274ef
+// github.com/feifeixiyu/yaml v2.2.8
 )

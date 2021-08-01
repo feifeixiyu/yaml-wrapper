@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	yaml "gopkg.in/yaml.v2"
+	yaml "github.com/feifeixiyu/yaml"
 )
 
 type MarshalTest struct {
